@@ -1,5 +1,6 @@
 # svelte-star-rating
-Svelte component for star rating
+Svelte component for star rating.
+
 To use this component : 
 1) Clone & run 'npm i' inside the folder
 2) Still in this folder, run 'npm link'
