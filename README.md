@@ -9,3 +9,6 @@ To use this component :
 3) Open a terminal inside the folder of your Svelte project
 4) Run 'npm link /path/svelte-star-rating' replacing '/path' with the component's folder path on your machine.
 5) Just import the component from 'svelte-star-rating' in your project.
+
+
+Source : https://dev.to/ernanej/how-to-develop-a-svelte-component-and-publish-it-as-a-package-in-npm-40pc
