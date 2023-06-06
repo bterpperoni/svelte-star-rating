@@ -1,5 +1,5 @@
 {
-    "name": "svelte-star-rating",
+    "name": "@bterpperoni/svelte-star-rating",
     "version": "1.0.0",
     "description": "Simple component to assign scores based on stars.",
     "homepage": "https://github.com/bterpperoni/svelte-star-rating",
@@ -10,9 +10,12 @@
         "type": "git",
         "url": "git+https://github.com/bterpperoni/svelte-star-rating.git"
     },
-    "main": "index.js",
+    "main": "dist/index.js",
+    "module": "dist/index.mjs",
+    "svelte": "src/index.js",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "build": "rollup -c",
+        "dev": "rollup -c -w"
     },
     "keywords": [
         "svelte",
