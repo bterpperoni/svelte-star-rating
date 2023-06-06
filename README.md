@@ -1,4 +1,5 @@
 # svelte-star-rating
+/!\ This is a test package made with Svelte /!\
 Svelte component for star rating.
 
 To use this component : 
